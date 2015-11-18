@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1157.3208333333332" y="0.0">sample.Main</node>
+    <node x="780.3208333333333" y="787.0">model.Figure</node>
+    <node x="505.3333333333333" y="1378.0">sample.Controller</node>
+    <node x="0.0" y="283.0">model.Polygon2D</node>
+    <node x="630.2458333333334" y="349.5">model.Polygon3D</node>
+    <node x="582.7791666666667" y="0.0">model.Point3D</node>
+    <node x="169.7791666666667" y="22.0">model.Point2D</node>
+    <node x="249.6541666666667" y="655.0">view.MyView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="view.MyView" target="model.Point3D">
+      <point x="145.0" y="-336.5" />
+      <point x="612.1541666666667" y="630.0" />
+      <point x="589.1125000000001" y="630.0" />
+      <point x="589.1125000000001" y="258.0" />
+      <point x="666.1125000000001" y="258.0" />
+      <point x="-166.66666666666663" y="116.5" />
+    </edge>
+    <edge source="view.MyView" target="model.Point2D">
+      <point x="0.0" y="-336.5" />
+      <point x="467.1541666666667" y="630.0" />
+      <point x="485.5" y="630.0" />
+      <point x="485.5" y="258.0" />
+      <point x="464.5291666666667" y="258.0" />
+      <point x="98.25" y="94.5" />
+    </edge>
+    <edge source="sample.Controller" target="model.Figure">
+      <point x="54.75" y="-270.5" />
+      <point x="779.0833333333333" y="1353.0" />
+      <point x="863.3208333333333" y="1353.0" />
+      <point x="-83.0" y="204.5" />
+    </edge>
+    <edge source="view.MyView" target="model.Polygon2D">
+      <point x="-145.0" y="-336.5" />
+      <point x="322.1541666666667" y="630.0" />
+      <point x="237.5" y="630.0" />
+      <point x="0.0" y="161.0" />
+    </edge>
+    <edge source="model.Figure" target="model.Point3D">
+      <point x="83.0" y="-204.5" />
+      <point x="1029.3208333333332" y="630.0" />
+      <point x="1055.7458333333334" y="630.0" />
+      <point x="1055.7458333333334" y="258.0" />
+      <point x="999.4458333333333" y="258.0" />
+      <point x="166.6666666666666" y="116.5" />
+    </edge>
+    <edge source="sample.Controller" target="view.MyView">
+      <point x="-54.75" y="-270.5" />
+      <point x="669.5833333333333" y="1353.0" />
+      <point x="575.9041666666667" y="1353.0" />
+      <point x="108.75" y="336.5" />
+    </edge>
+    <edge source="model.Figure" target="model.Polygon3D">
+      <point x="-83.0" y="-204.5" />
+      <point x="863.3208333333333" y="630.0" />
+      <point x="837.7458333333334" y="630.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="model.Polygon2D" target="model.Point2D">
+      <point x="0.0" y="-161.0" />
+      <point x="237.5" y="258.0" />
+      <point x="268.0291666666667" y="258.0" />
+      <point x="-98.25" y="94.5" />
+    </edge>
+    <edge source="model.Polygon3D" target="model.Point3D">
+      <point x="0.0" y="-94.5" />
+      <point x="837.7458333333334" y="258.0" />
+      <point x="832.7791666666667" y="258.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="510.66666666666583" y="1182.9999999999995" />
+  <SelectedNodes>
+    <node>model.Polygon2D</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
